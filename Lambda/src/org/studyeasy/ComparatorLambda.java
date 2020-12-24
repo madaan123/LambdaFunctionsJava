@@ -32,7 +32,8 @@ public class ComparatorLambda {
 		data.add(new Data("Ramu"));
 		data.add(new Data("Ria"));
 		data.add(new Data("Samurai"));
-
+		
+		// Sorting based on object name
 		Collections.sort(data, (Data o1, Data o2) -> {
 			return o1.getName().compareTo(o2.getName());
 		});
